@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "FastAPIComplete"
+version = "0.1.0"
+description = ""
+authors = ["federico <federico.finder@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.75.0"}
+SQLAlchemy = "^1.4.31"
+psycopg2 = "^2.9.3"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+alembic = "^1.7.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
