@@ -1,4 +1,4 @@
-from fastapicomplete import __version__
+from ..fastapicomplete import __version__
 
 
 def test_version():
