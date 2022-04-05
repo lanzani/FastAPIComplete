@@ -4,6 +4,24 @@ from .routers import post, user, auth, vote
 
 # models.Base.metadata.create_all(bind=engine)
 
+
+# app = FastAPI(
+#     title="ChimichangApp",
+#     description=description,
+#     version="0.0.1",
+#     terms_of_service="http://example.com/terms/",
+#     contact={
+#         "name": "Deadpoolio the Amazing",
+#         "url": "http://x-force.example.com/contact/",
+#         "email": "dp@x-force.example.com",
+#     },
+#     license_info={
+#         "name": "Apache 2.0",
+#         "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+#     },
+# )
+
+
 app = FastAPI()
 
 # For public apis access (anyone can call this apis)
@@ -29,6 +47,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
+    print("ciao")
     return {"Hello": "world"}
 
 
