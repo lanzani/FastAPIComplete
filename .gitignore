@@ -271,3 +271,5 @@ __pycache__
 .idea
 .idea/
 .idea/*
+/.env-docker-compose
+.env-docker-compose
