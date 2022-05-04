@@ -5,3 +5,6 @@ This is a toy api with jwt autentication to play with.
 
 
 From [this](https://www.youtube.com/watch?v=0sOvCWFmrtA&t=1s) tutorial.
+
+
+Online demo to play with: [here](https://fastapi-complete.herokuapp.com/)
